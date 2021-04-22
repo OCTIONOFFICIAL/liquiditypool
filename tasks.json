@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command":"make",
+			"args": [
+                "test"
+			], 
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": "test",
+			"label": "make test"
+		},
+		{
+			"type": "shell",
+			"command":"make build",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": "build",
+			"label": "make build"
+		}
+
+	]
+}
